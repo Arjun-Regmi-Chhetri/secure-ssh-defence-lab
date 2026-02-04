@@ -22,5 +22,31 @@ The goal of this project is to simulate SSH brute-force attacks on a Linux serve
 - Intrusion prevention
 - Blue team fundamentals
 
+
+
+
+### Baseline SSH Configuration
+
+The SSH server was deployed using the default OpenSSH configuration provided by Ubuntu Server.
+Most security-related directives were left commented, resulting in default behavior.
+
+Key baseline characteristics:
+- SSH running on default port 22
+- Password-based authentication enabled
+- No brute-force protection
+- No IP restrictions
+- Default logging level
+
+This configuration represents a common real-world deployment prior to security hardening.
+
+
+
+
+
+
+
+
+
+
 ## Disclaimer
 This project is conducted in a controlled lab environment for educational purposes only.
